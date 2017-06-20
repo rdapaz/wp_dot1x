@@ -46,7 +46,7 @@ T4 - Three-Springs|Sept
 # sites = {k: v for k, v in [x.split('|') for x in sites if len(x) > 0]}
 sites = [x.split('|') for x in sites if len(x) > 0]
 
-print sites
+print (sites)
 '''
 rex = re.compile('T\d{1}.*', re.IGNORECASE)
 

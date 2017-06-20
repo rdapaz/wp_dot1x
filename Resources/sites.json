@@ -1,0 +1,118 @@
+{
+    "T2 - Northam": {
+        "count": 5, 
+        "desc": "NTHM-01-SW1, NTHM-01-SW2, NTHM-01-SW2-2, NTHM-02-SW1 and NTHM-03-SW1 (5)"
+    }, 
+    "T4 - Bridgetown": {
+        "count": 1, 
+        "desc": "BRIDG-01-SW1"
+    }, 
+    "Not in Scope": {
+        "count": 35, 
+        "desc": "NDC-04-SW01, NDC-C-SW5-1, NDC-C-SW5-2, NDC-S-SW1-1, NDC-S-SW1-2, NGN-01-SW1, NGN-02-SW1, OIAB1-01-SW1, OIAB2-01-SW1, OIAB4-01-SW1, PDC-ASGL7-SW1, PDC-DMZ-SW1, PDC-DMZ-SW2, PDC-DMZ-SW3, PDC-DMZ-SW4, PDC-DMZ-SW5, PDC-DMZ-SW6, PDC-RIB-SW1, PDC-RIB-SW1-2, PDC-RIB-SW1-3, PDC-RIB-SW1-4, PDC-RIB-SW2, PDC-RIB-SW2-2, PDC-RIB-SW2-3, PDC-SW4, PDC-SW7, PDC-SW8, PDC-VG224-SW1, PDC-VG224-SW1-2, SDC-DEV-SW1, SDC-DEV-SW1-2, SDC-DMZ-SW1, SDC-DMZ-SW2, SDC-DMZ-SW3 and SDC-INET-SW1 (35)"
+    }, 
+    "T4 - Moora": {
+        "count": 1, 
+        "desc": "MOORA-01-SW1"
+    }, 
+    "T4 - Katanning": {
+        "count": 1, 
+        "desc": "KTN-01-SW1"
+    }, 
+    "T4 - Collie": {
+        "count": 2, 
+        "desc": "COLLI-01-SW1 and COLLI-02-SW1 (2)"
+    }, 
+    "T1 - Jandakot Princep": {
+        "count": 21, 
+        "desc": "JKPRD-01-SW1, JKPRD-01-SW1-2, JKPRD-01-SW2, JKPRD-01-SW2-2, JKPRD-01-SW3, JKPRD-01-SW3, JKPRD-01-SW3, JKPRD-01-SW4, JKPRD-01-SW4, JKPRD-02-SW1, JKPRD-02-SW1-2, JKPRD-03-SW1, JKPRD-03-SW1-2, JKPRD-04-SW1, JKPRD-05-SW1, JKPRD-06-SW1, JKPRD-07-SW1, JKPRD-08-SW1, JKPRD-08-SW1, JKPRD-09-SW1 and JKPRD-10-SW1 (21)"
+    }, 
+    "T1 - Picton": {
+        "count": 14, 
+        "desc": "PICT-01-SW1, PICT-01-SW1_2, PICT-01-SW2, PICT-01-SW2_2, PICT-01-SW3, PICT-01-SW3_2, PICT-01-SW4, PICT-02-SW1, PICT-02-SW1-2, PICT-03-SW1, PICT-04-SW1, PICT-05-SW1, PICT-07-SW1 and PICT-08-SW1 (14)"
+    }, 
+    "T1 - Forrestfield": {
+        "count": 16, 
+        "desc": "FORR-01-SW1, FORR-01-SW1-2, FORR-01-SW2, FORR-01-SW2_2, FORR-01-SW3, FORR-01-SW3-2, FORR-01-SW4, FORR-02-SW1, FORR-03-SW1, FORR-04-SW1, FORR-05-SW1, FORR-06-SW1, FORR-07-SW1, FORR-08-SW1, FORR-09-SW1 and FORR-10-SW1 (16)"
+    }, 
+    "T2 - Geraldton": {
+        "count": 4, 
+        "desc": "GERN-01-SW1, GERN-01-SW2, GERN-01-SW2-2 and GERN-02-SW1 (4)"
+    }, 
+    "T4 - Merredin": {
+        "count": 1, 
+        "desc": "MERD-01-SW1"
+    }, 
+    "T4 - Southern Cross": {
+        "count": 1, 
+        "desc": "STHX-01-SW1"
+    }, 
+    "T4 - Busselton": {
+        "count": 2, 
+        "desc": "BUSN-01-SW1 and BUSN-02-SW1 (2)"
+    }, 
+    "T1 - Mt.Claremont": {
+        "count": 10, 
+        "desc": "MTCL-01-SW1, MTCL-01-SW1, MTCL-01-SW2, MTCL-01-SW2, MTCL-01-SW3, MTCL-01-SW3-2, MTCL-02-SW1, MTCL-03-SW1, MTCL-03-SW1-2 and MTCL-04-SW1 (10)"
+    }, 
+    "T1 - Stirling": {
+        "count": 13, 
+        "desc": "STRLG-01-SW1, STRLG-01-SW1-2, STRLG-01-SW2, STRLG-01-SW2-2, STRLG-01-SW3, STRLG-01-SW3-2, STRLG-01-SW4, STRLG-02-SW1, STRLG-03-SW1, STRLG-04-SW1, STRLG-05-SW1, STRLG-06-SW1 and STRLG-07-SW1 (13)"
+    }, 
+    "T4 - Waroona": {
+        "count": 1, 
+        "desc": "WRNA-01-SW1"
+    }, 
+    "T1 - EPCC": {
+        "count": 20, 
+        "desc": "EPCC-01-SW1, EPCC-01-SW1-2, EPCC-01-SW1-3, EPCC-01-SW2, EPCC-01-SW2-2, EPCC-02-SW1, EPCC-02-SW1-2, EPCC-02-SW2, EPCC-02-SW2-2, EPCC-02-SW3, EPCC-02-SW3-2, EPCC-03-SW1, EPCC-03-SW1-2, EPCC-03-SW1-3, EPCC-03-SW2, EPCC-03-SW2-2, EPCC-C-SW5-1, EPCC-C-SW5-2, EPCC-S-SW1-1 and EPCC-S-SW1-2 (20)"
+    }, 
+    "T4 - Jurien": {
+        "count": 2, 
+        "desc": "JUREN-01-SW1 and JUREN-02-SW1 (2)"
+    }, 
+    "T4 - Three-Springs": {
+        "count": 1, 
+        "desc": "THRSP-01-SW1"
+    }, 
+    "T1 - HO": {
+        "count": 87, 
+        "desc": "DR-ASGL7-SW1, HO10E-01-SW1, HO10E-01-SW1-2, HO10E-01-SW1-3, HO10E-01-SW1-4, HO10W-01-SW1, HO10W-01-SW1-2, HO10W-01-SW1-3, HO11E-01-SW1, HO11E-01-SW1-2, HO11E-01-SW1-3, HO11E-01-SW1-4, HO11W-01-SW1, HO11W-01-SW1-2, HO11W-01-SW1-3, HO1E-01-SW1, HO1E-01-SW1-2, HO1E-01-SW1-3, HO1E-01-SW1-4, HO1W-01-SW1, HO1W-01-SW1-2, HO1W-01-SW1-3, HO1W-01-SW1-4, HO2E-01-SW1, HO2E-01-SW1-2, HO2E-01-SW1-3, HO2E-01-SW1-4, HO2W-01-SW1, HO2W-01-SW1-2, HO2W-01-SW1-3, HO3E-01-SW1, HO3E-01-SW1-2, HO3E-01-SW1-3, HO3E-01-SW1-4, HO3W-01-SW1, HO3W-01-SW1-2, HO3W-01-SW1-3, HO3W-01-SW1-4, HO4E-01-SW1, HO4E-01-SW1-2, HO4E-01-SW1-3, HO4E-01-SW1-4, HO4W-01-SW1, HO4W-01-SW1-2, HO4W-01-SW1-3, HO4W-01-SW1-4, HO5E-01-SW1, HO5E-01-SW1-2, HO5E-01-SW1-3, HO5E-01-SW1-4, HO5W-01-SW1, HO5W-01-SW1-2, HO5W-01-SW1-3, HO6E-01-SW1, HO6E-01-SW1-2, HO6E-01-SW1-3, HO6E-01-SW1-4, HO6W-01-SW1, HO6W-01-SW1-2, HO6W-01-SW1-3, HO6W-01-SW1-4, HO7E-01-SW1, HO7E-01-SW1-2, HO7E-01-SW1-3, HO7E-01-SW1-4, HO7W-01-SW1, HO7W-01-SW1-2, HO7W-01-SW1-3, HO8E-01-SW1, HO8E-01-SW1-2, HO8E-01-SW1-3, HO8W-01-SW1, HO8W-01-SW1-2, HO8W-01-SW1-3, HO9E-01-SW1, HO9E-01-SW1-2, HO9E-01-SW1-3, HO9E-01-SW1-4, HO9W-01-SW1, HO9W-01-SW1-2, HO9W-01-SW1-3, HOCR-F21-SW1, HOCR-F21-SW1-2, HOGE-01-SW1, HOGE-01-SW1-2, HOGW-01-SW1 and HOGW-01-SW1-2 (87)"
+    }, 
+    "T1 - Kewdale": {
+        "count": 20, 
+        "desc": "KEWD-01-SW1, KEWD-02-SW1, KEWD-02-SW1-2, KEWD-03-SW1, KEWD-04-SW1, KEWD-05-SW1, KEWD-06-SW1, KEWD-07-SW1, KEWD-07-SW1, KEWD-07-SW2, KEWD-07-SW2, KEWD-07-SW3, KEWD-07-SW3-2, KEWD-07-SW4, KEWD-07-SW4-2, KEWD-07-SW4-3, KEWD-07-SW4-4, KEWD-09-SW1, KEWD-10-SW1 and KEWD-11-SW1 (20)"
+    }, 
+    "T2 - Albany": {
+        "count": 6, 
+        "desc": "ALBY-01-SW1, ALBY-01-SW2, ALBY-01-SW2-2, ALBY-02-SW1, ALBY-03-SW1 and ALBY-04-SW1 (6)"
+    }, 
+    "T4 - Jerramungup": {
+        "count": 2, 
+        "desc": "JERRA-01-SW1 and JERRA-02-SW1 (2)"
+    }, 
+    "T4 - Kondinin": {
+        "count": 1, 
+        "desc": "KOND-01-SW1"
+    }, 
+    "T4 - Kalg": {
+        "count": 2, 
+        "desc": "KALG-01-SW1 and KALG-01-SW2 (2)"
+    }, 
+    "T4 - Koorda": {
+        "count": 1, 
+        "desc": "KRDA-01-SW1"
+    }, 
+    "T4 - Mriver": {
+        "count": 2, 
+        "desc": "MARGR-01-SW1 and MARGR-01-SW2 (2)"
+    }, 
+    "T2 - Mandurah": {
+        "count": 5, 
+        "desc": "MAND-01-SW1, MAND-01-SW2, MAND-01-SW2-2, MAND-02-SW1 and MAND-03-SW1 (5)"
+    }, 
+    "T1 - Jandakot Hope": {
+        "count": 18, 
+        "desc": "JKHPD-01-SW1, JKHPD-01-SW1-2, JKHPD-01-SW2, JKHPD-01-SW2-2, JKHPD-01-SW3, JKHPD-04-SW1, JKHPD-05-SW1, JKHPD-06-SW1, JKHPD-07-SW1, JKHPD-08-SW1, JKHPD-09-SW1, JKHPD-10-SW1, JKHPD-12-SW1, JKHPD-13-SW1, JKHPD-13-SW1-2, JKHPD-14-SW1, JKHPD-14-SW1-2 and JKHPD-16-SW1 (18)"
+    }
+}
