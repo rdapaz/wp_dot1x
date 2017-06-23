@@ -2,7 +2,52 @@ import win32com.client
 import pprint
 import json
 import datetime
+import yaml
 
+
+def pretty_printer(o):
+    pp = pprint.PrettyPrinter(indent=4)
+    pp.pprint(o)
+
+
+def runs():
+    run_text = """
+Tier 1 Sites:
+     - T1 - EPCC (20 switches)
+     - T1 - Forrestfield (16 switches)
+     - T1 - Jandakot Hope (18 switches)
+     - T1 - Jandakot Princep (21 switches)
+     - T1 - Kewdale (20 switches)
+     - T1 - Mt.Claremont (10 switches)
+     - T1 - Picton (14 switches)
+     - T1 - Stirling (13 switches)
+Run 1 (640 Km):
+     - T2 - Mandurah (5 switches)
+     - T4 - Busselton (2 switches)
+     - T4 - Busselton Vasse
+     - T4 - Mriver (2 switches)
+     - T4 - Bridgetown (1 switch)
+     - T2 - Albany (6 switches)
+Run 2 (594 Km): 
+     - T2 - Northam (5 switches)
+     - T4 - Koorda (1 switch)
+     - T4 - Merredin (1 switch)
+     - T4 - Southern Cross (1 switch)
+     - T4 - Kalg (2 switches)
+Run 3 (732 Km):
+     - T4 - Moora (1 switch)
+     - T4 - Jurien (2 switches)
+     - T4 - Three-Springs (1 switch)
+     - T2 - Geraldton (4 switches)
+Run 4 (762 Km):
+     - T4 - Waroona (1 switch)
+     - T4 - Collie (2 switches)
+     - T4 - Narrogin (1 switch)
+     - T4 - Kondinin (1 switch)
+     - T4 - Katanning (1 switch)
+     - T4 - Jerramungup (2 switches)
+"""
+    return yaml.load(run_text)
 
 def fixDate(s_date):
     """
@@ -41,6 +86,10 @@ class Project:
                 if tsk.Text3 in data and tsk.Text3[:6] == tsk.Name[:6]:
                     tsk.Name = tsk.Text3
 
+    def updateRuns(self, runs):
+        for tsk in self.mpp.Tasks:
+            if tsk.Name in runs:
+                tsk.Text4 = runs[tsk.Name]
 
 
 def pretty_printer(o):
@@ -49,13 +98,16 @@ def pretty_printer(o):
 
 
 def main():
-    with open(r'C:\Users\ric\projects\wp_dot1x\Python\dot1x_sites_dates.json', 'r') as fin:
+    with open(r'C:\Users\rdapaz\projects\wp_dot1x\Python\dot1x_sites_dates.json', 'r') as fin:
         data = json.load(fin)
 
     pretty_printer(data)
-    pp = Project(r'D:\__NEW__\802.1X Full Deployment.mpp')
+    pp = Project(r'C:\Users\rdapaz\Desktop\Western Power 802.1X Enterprise Wired DeploymentV2.mpp')
     # pp.updateTasks(data=data)
-    pp.doFinalUpdate(data, undo=False)
+    # pp.doFinalUpdate(data, undo=False)
+    switch_runs = runs()
+    inv_runs = dict((x, k) for k in switch_runs for x in switch_runs[k])
+    pp.updateRuns(runs=inv_runs)
 
 if __name__ == "__main__":
     main()
