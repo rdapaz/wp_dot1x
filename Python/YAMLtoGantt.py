@@ -90,7 +90,7 @@ class MicrosoftProject:
                                  )
 
 def main(o):
-    doc = r"C:\Users\rdapaz\Dropbox\Projects\Western Power\temp.mpp"
+    doc = r"C:\Users\rdapaz\Dropbox\Projects\Western Power\Western Power 802.1X Enterprise Wired DeploymentV2.mpp"
     pj = MicrosoftProject(doc)
     pj.yaml_to_gantt(o)
     
