@@ -1,0 +1,163 @@
+Deployment:
+    T1 - EPCC (20 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 1.5d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.375d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+    T1 - Forrestfield (16 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.75d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.375d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+    T1 - Jandakot Hope (18 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.75d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+    T1 - Jandakot Princep (21 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 3.0d|NSL3 OT(31%)
+        Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 0.75d|Network Support (Lead)
+    T1 - Kewdale (20 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.9458333333333333d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+    T1 - Mt.Claremont (10 switches):
+        802.1x Deployment: 0.75d|NSL3 OT
+        Travel to site: 1hr|Network Support (Lead)
+        Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+    T1 - Picton (14 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.75d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+    T1 - Stirling (13 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.75d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
+        Travel to Office: 1hr|Network Support (Lead)
+        Post implementation support: 1.5d|Network Support (Lead)
+Deployment Run No. 1:
+    T2 - Mandurah (5 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Busselton (2 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Busselton Vasse:
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Change Control/Preparation work: 0.375d|Network Support (Lead)
+    T4 - Mriver (2 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Bridgetown (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T2 - Albany (6 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.75d|Network Support (Lead)
+        Travel to office: 1hr|Network Support (Lead)
+Deployment Run No. 2:
+    T2 - Northam (5 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Koorda (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Merredin (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Southern Cross (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Kalg (2 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+        Travel to office: 1hr|Network Support (Lead)
+Deployment Run No. 3:
+    T4 - Moora (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Three-Springs (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T2 - Geraldton (4 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+        Travel to office (via Jurien): 1hr|Network Support (Lead)
+    T4 - Jurien (2 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+        Travel to office: 1hr|Network Support (Lead)
+Deployment Run No. 4:
+    T4 - Waroona (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Collie (2 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Narrogin (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Kondinin (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Katanning (1 switch):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+    T4 - Jerramungup (2 switches):
+        Travel to site: 1hr|Network Support (Lead)
+        802.1x Deployment: 0.375d|NSL3 OT
+        Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
+        Post implementation support: 0.19583333333333333d|Network Support (Lead)
+        Travel to office: 1hr|Network Support (Lead)

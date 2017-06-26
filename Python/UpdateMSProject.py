@@ -92,6 +92,20 @@ class Project:
                 tsk.Text4 = runs[tsk.Name]
 
 
+    def deleteTasks(self, data):
+        tasksToDelete = [
+            '802.1x Deployment',
+            'Perform Acceptance Testing and issue resolution',
+            'Post implementation support',
+            'Preq task prior to 802.1x deployment (optional)',
+        ]
+        pretty_printer(tasksToDelete)
+        for tsk in self.mpp.Tasks:
+            if tsk.Name in tasksToDelete and tsk.Text3 in data:
+                print(f"will delete {tsk.Name} under {tsk.Text3}")
+                tsk.Delete()
+
+
 def pretty_printer(o):
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(o)
@@ -102,12 +116,14 @@ def main():
         data = json.load(fin)
 
     pretty_printer(data)
-    pp = Project(r'C:\Users\rdapaz\Desktop\Western Power 802.1X Enterprise Wired DeploymentV2.mpp')
+    path = r'C:\Users\rdapaz\Dropbox\Projects\Western Power\Western Power 802.1X Enterprise Wired DeploymentV2.mpp'
+    pp = Project(filePath=path)
     # pp.updateTasks(data=data)
     # pp.doFinalUpdate(data, undo=False)
-    switch_runs = runs()
-    inv_runs = dict((x, k) for k in switch_runs for x in switch_runs[k])
-    pp.updateRuns(runs=inv_runs)
+    # switch_runs = runs()
+    # inv_runs = dict((x, k) for k in switch_runs for x in switch_runs[k])
+    # pp.updateRuns(runs=inv_runs)
+    pp.deleteTasks(data)
 
 if __name__ == "__main__":
     main()

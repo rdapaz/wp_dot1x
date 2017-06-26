@@ -4,10 +4,11 @@ import re
 import os
 import pprint
 
+# Python 2 to Python 3 fix
 try:
     from cStringIO import StringIO
 except:
-    from StringIO import StringIO
+    from io import StringIO
 
 # Writing to a buffer
 output = StringIO()
@@ -18,12 +19,12 @@ def pretty_print(o):
     pp.pprint(o)
 
 
-ROOT = r'D:\Projects\Western Power\NEW'
+ROOT = r'C:\Users\rdapaz\Dropbox\Projects\Western Power'
 
 proj = win32com.client.gencache.EnsureDispatch('MSProject.Application')
 proj.Visible = True
 
-filepath = os.path.join(ROOT, 'Western Power 802.1X wired Deployment.mpp')
+filepath = os.path.join(ROOT, 'Western Power 802.1X Enterprise Wired DeploymentV2.mpp')
 
 proj.FileOpen(filepath)
 my_proj = proj.ActiveProject
@@ -36,7 +37,7 @@ for tsk in my_proj.Tasks:
         continue
     else:
         if rex.search(tsk.Name):
-            print tsk.Name
+            print (tsk.Name)
         SPACES = '    '
         task_desc = None
         if tsk.OutlineChildren.Count == 0:
@@ -51,7 +52,7 @@ for tsk in my_proj.Tasks:
                                         SPACES * int(tsk.OutlineLevel -1),
                                         tsk.Name
                                       )
-        print >>output, task_desc
+        print(task_desc, file=output)
 
 json_text = output.getvalue()
 with open('tasks.yaml', 'w') as f:
