@@ -1,0 +1,334 @@
+Project Initiation - Stage 1:
+    Setup Project Controls:
+        Agree project classification with Program Manager: 0.19583333333333333d|Project Manager
+        Western Power:
+            (Deliverable) Create Project Management Plan / Brief: 2.25d|Project Manager
+            Create Stakeholder Management Plan: 0.375d|Project Manager
+            Setup Financial Tracker: 1.125d|Project Manager
+            (Deliverable) Setup Project Log: 1.125d|Project Manager
+            Create Resource Plan: 0.75d|Project Manager
+            (Deliverable) Create Project Schedule - Stage 1: 1.5d|Project Manager
+            (Deliverable) Setup RACI of Deliverables: 0.375d|Project Manager
+        Empired:
+            Create Project Log and setup Project in OpenAir: 1.125d|Project Manager
+    Project Mobilisation:
+        Organise Project Mobilisation / Kickoff Meeting: 0.375d|Project Manager
+        Conduct Project Mobilisation / Kickoff Meeting: 2.25d|Network Support (Lead),Tech Architect,Project Manager
+Project Scoping - Stage 2:
+    Gather and document Business Requirements: 1.5d|Western Power
+    Prepare the Project High Level Cost Estimate: 1.5d|Western Power
+    Update the PMP or Brief: 1.5d|Project Manager
+    Complete End of Stage 2 Gate (if nominated): 0.75d|Project Manager
+Design and Planning Phase - Stage 3:
+    Stage Initiation:
+        Review Project Schedule: 0.375d|Project Manager
+        Review RAID Log: 0.375d|Project Manager
+        Mobilise Project Team: 0.75d|Project Manager
+        Phase Project Team/Sponsor Kick Off Meeting: 0.375d|Project Manager,Network Support (Lead),Tech Architect,Western Power
+    Planning:
+        Create target list for replacement based on CI/CMDB data: 20.0d|Network Support (Lead)[50%],Project Manager[50%]
+        Resource Delay: 20.0d|
+        Run show commands to document current state (capacity, licensing requirements) andfinalise BOM: 5.0d|Network Support (Lead)[50%],Project Manager[50%]
+        Liaise with Cisco AM for recommended hardware replacement: 5.0d|Project Manager[50%]
+        Identify rack locations with insufficient depth for replacement hardware: 2.0d|Network Support (Lead)[60%]
+        Review and Plan Wireless deployment: 1.0d|Network Support (Lead)[60%]
+        Write Recommendations Paper/Options Paper: 2.0d|Network Support (Lead)[60%]
+        Review Recommendations Paper: 0.0d|Network Support (Lead)[60%],Project Manager[50%]
+        Issue Recommendations Paper: 0.0d|Project Manager[50%]
+        (Milestone) Planning Complete: 0.0d|
+    Business Case:
+        Prepare Estimates (Delivery Approach / Risk Assessment / Options Analysis/ Input into Benefits and Success Criteria): 1.5d|Western Power
+        Conduct Internal Review and Update Business Case: 1.5d|Western Power
+        Conduct Formal Review and Sign off on the Business Case: 0.75d|Project Manager,Western Power
+        Business Case Completed: 0.0d|
+    Project Management Plan or Brief:
+        Update Project Management Plan or Brief: 1.5d|Project Manager
+        Conduct Internal Review and Update Project Management Plan or Brief: 0.75d|Project Manager
+        Conduct Formal Review and Sign off on the Project Management Plan or Brief: 0.75d|Project Manager
+        Project Management Plan or Brief completed: 0.375d|
+    P2S Requirements: 1.125d|Project Manager
+    Kickoff  and scope verification: 2h|Senior Engineer
+    Requirements gathering: 2h|Senior Engineer
+    Architect handover and design review: 16h|Network Architect
+    Details Solution Design  ( 1.5 hr per device * 24 Device and 0.5 hr per AP x  40 AP - 56h|Senior Engineer):
+        Verify Rack sizes: 8hr|Senior Engineer 
+        Verify Cable requirements: 8hr|Senior Engineer
+        Check for Cable issues: 4hr|Senior Engineer
+        Verify appropriate Power: 8h|Senior Engineer
+        Verify Port Capacity appropriate: 8h|Senior Engineer
+        Verify no. of engineers required or special equipment requirements (Weight & logistics of installation): 4hr|Senior Engineer
+        Identify SFP requirements: 8h|Senior Engineer
+        Identify if configuration changes required: 8hr|Senior Engineer
+    Confirm order of replacing devices (don't go to same site in both years): 4h|Senior Engineer
+    Confirm BOM & Quoting of additional components (Split between Engineer\Architect): 4h|Senior Engineer
+    Create Test plans: 16h|Senior Engineer
+    Implementation Plan: 16h|Senior Engineer
+Project Execution - Stage 4:
+  Build Phase:
+    FORR  ( 3 X VG and 1x AP):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling re AP: 1h|Senior Engineer
+        Configure VG,  and Access Point ( IOS upgrade and configs @ 1 hr per device and 0.5 hr per AP): 3.5h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    HO (6 x VG Devices and 2 x RB):
+        Cab Meetings & Change requests: 3h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 0h|Senior Engineer
+        Configure VG,  and Access Point ( IOS upgrade and configs @ 1 hr per device and 0.5 hr per AP): 8h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0h|Senior Engineer
+    KALG (1 device):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 0h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 0.5h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    MARGR (1 device):   
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 0h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 0.5h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    NTHM (2 devices):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 0h|Senior Engineer
+        Configure switch and VG( IOS upgrade and configs @ 1 hr per device ): 2h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    PICT (2 devices):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 0h|Senior Engineer
+        Configure switch and VG( IOS upgrade and configs @ 1 hr per device ): 2h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    SDC (1 device):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 0h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    WRNA(1 x Router and 1 x RB):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling, power, cooling, rack: 1h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 2h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    MTCL (2 x AP):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling - Attend site for quotation and AP location - Travel): 3h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    STRLG (8 x AP):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors - (Attend site for quotation and AP location - Travel ): 5h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 2h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    GERN (3 x AP):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling and work out location of AP remotely: 2h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1.5h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    Jerra (1 x RB):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling and work out location of AP remotely: 0h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    Colli (1 x RB):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling and work out location of AP remotely: 0h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 1h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+    OIAB  (3 x RB):
+        Cab Meetings & Change requests: 1h|Senior Engineer
+        Liaise with contractors data cabling and work out location of AP remotely: 0h|Senior Engineer
+        Configure switch ( IOS upgrade and configs @ 1 hr per device ): 3h|Senior Engineer
+        Execute Unit hardware Acceptance Testing: 1h|Senior Engineer
+        Pack Equipment & ship to site: 0.5h|Senior Engineer
+  Implementation Phase:
+    FORR  ( 3 X VG and 1x AP):
+        Travel/Accomodation: 2h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        Device change over, patching and final configuration: 4h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    HO (6 x VG Devices and 2 RB):
+        Travel/Accomodation: 0h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        First Weekend = Device change over, patching and final configuration: 6h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+        Second Weekend = Device change over, patching and final configuration - Travel to NDC/PDC: 6h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    KALG (1 device):
+        Travel/Accomodation might be required: 16h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    MARGR (1 device):
+        Travel/Accomodation: 8h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    NTHM (2 devices):
+        Travel/Accomodation: 8h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    PICT (2 devices):
+        Travel/Accomodation: 8h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    SDC (1 device):
+        Travel/Accomodation: 2h|Senior Engineer
+        Rack Installation: 0h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    WRNA (1 x router and 1 x RB):
+        Travel/Accomodation: 8h|Senior Engineer
+        Rack Installation: 4h|Senior Engineer
+        Device change over, patching and final configuration: 2h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    MTCL (2 x AP):
+        Travel/Accomodation: 2h|Senior Engineer
+        AP  Installation by Electrician: 2h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    STRLG (8 x AP):
+        Travel/Accomodation: 2h|Senior Engineer
+        AP  Installation by Electrician: 4h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    GERN (3 x AP):
+        Travel/Accomodation: 10h|Senior Engineer
+        AP  Installation by Electrician: 3h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    Jerra  (1 x RB):
+        Travel/Accomodation: 14h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    Colli (1 x RB):
+        Travel/Accomodation: 6h|Senior Engineer
+        Device change over, patching and final configuration: 1h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    OIAB (3 x RB):
+        Travel/Accomodation: 6h|Senior Engineer
+        Device change over, patching and final configuration: 6h|Senior Engineer
+        Decommission and remove old network Hardware: 1h|Senior Engineer
+        Execute Final Acceptance Test plan (FAT) and obtain signoff: 1h|Senior Engineer
+    Decommission Devices (0.5 hr per device * 59): 40h|Senior Engineer
+    (Deliverable) Finalise As Built Documentation: 3.0d|Network Support (Lead)
+Project Closeout - Stage 5:
+  Support, Training and Handover Documentation:
+      FORR  ( 3 X VG and 1x AP):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      HO (6 x VG Devices , 2 x RB):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 4h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      KALG (1 device):   
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      MARGR (1 device):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      NTHM (2 devices):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      PICT (2 devices):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      SDC (1 device):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      WRNA(1 x Router and 1 x RB):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 2h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      MTCL (2 x AP):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      STRLG (8 x AP):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 2h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      GERN (3 x AP):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 2h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      Jerra (1 x RB):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      Colli (1 x RB):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 1h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+      OIAB (3 x RB):
+          Post Implementation Support: 2h|Senior Engineer
+          Complete As-Built Documentation: 1h|Senior Engineer
+          Administrative Training, CMDB update and Handover: 2h|Senior Engineer
+          Update Network Drawings: 0.5h|Senior Engineer
+  Quality Review of As Built Documentation: 0.75d|Tech Architect
+  Project to Support:
+      Prepare P2S Handover:
+          (Deliverable) RTP Checklist: 0.375d|Project Manager
+          (Deliverable) P2S Checklist: 0.375d|Project Manager
+          RTP Handover document: 0.375d|Project Manager
+          BAU process orientation/process changes/Service Diagram: 1.125d|Network Support (Lead)
+          BAU Review: 0.75d|BaU
+          RTP Update from review: 0.75d|Network Support (Lead)
+          Move Add Change Procedures: 0.375d|Network Support (Lead)
+          Prepare Operational Handover Training: 0.375d|Network Support (Lead)
+          Approved Release To Production (RTP): 0.0d|
+  Close-out:
+    Western Power:
+          (Deliverable) Create/Complete Project Closeout Checklist: 1.5d|Project Manager
+          (Deliverable) Send out and Complete the Project Satisfaction Survey: 0.5708333333333333d|Project Manager,Western Power
+          (Deliverable) Create / Review/ Sign off Project Closure Report / Memo: 1.5d|Project Manager
+          (Deliverable) PMO Lessons Learned Register: 0.75d|Project Manager
+          Sponsor Agrees to Close Project: 0.0d|
+    Empired:
+        PIR Survey and Prework: 0.19583333333333333d|Project Manager
+        PIR Workshop: 0.19583333333333333d|Network Support (Lead),Project Manager,Tech Architect
+        PIR Completion: 0.75d|Project Manager
+        Complete End Project Checklist: 0.19583333333333333d|Project Manager

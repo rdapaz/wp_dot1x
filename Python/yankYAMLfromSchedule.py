@@ -19,12 +19,12 @@ def pretty_print(o):
     pp.pprint(o)
 
 
-ROOT = r'C:\Users\rdapaz\Dropbox\Projects\Western Power'
+ROOT = r'C:\Users\rdapaz\Desktop'
 
 proj = win32com.client.gencache.EnsureDispatch('MSProject.Application')
 proj.Visible = True
 
-filepath = os.path.join(ROOT, 'Western Power 802.1X Enterprise Wired DeploymentV2.mpp')
+filepath = os.path.join(ROOT, 'I0441177 (106463) - Network EOL FY1617 .mpp')
 
 proj.FileOpen(filepath)
 my_proj = proj.ActiveProject

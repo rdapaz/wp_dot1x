@@ -90,7 +90,7 @@ class MicrosoftProject:
                                  )
 
 def main(o):
-    doc = r"C:\Users\rdapaz\Dropbox\Projects\Western Power\Western Power 802.1X Enterprise Wired DeploymentV2.mpp"
+    doc = r"D:\Projects\Western Power\NEW\temp.mpp"
     pj = MicrosoftProject(doc)
     pj.yaml_to_gantt(o)
     
@@ -106,7 +106,7 @@ def test(o, nesting=0):
 
 
 if __name__ == "__main__":
-    with open(r'C:\Users\rdapaz\projects\wp_dot1x\Python\deployment run.yaml', 'r') as f:
+    with open(r'C:\Users\rdapaz\projects\wp_dot1x\Python\wp_fy17.yaml', 'r') as f:
         data = yaml.load(f, Loader=OrderedDictYAMLLoader)
     # obj = yaml.load(data, Loader=OrderedDictYAMLLoader)
     test(data)

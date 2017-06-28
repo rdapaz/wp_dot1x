@@ -1,440 +1,49 @@
-Project Initiation - Stage 1:
-    Setup Project Controls:
-        Agree project classification with Program Manager: 0.19583333333333333d|Project Manager
-        Western Power:
-            (Deliverable) Create Project Management Plan / Brief: 2.25d|Project Manager
-            Create Stakeholder Management Plan: 0.375d|Project Manager
-            Setup Financial Tracker: 1.125d|Project Manager
-            (Deliverable) Setup Project Log: 1.125d|Project Manager
-            Create Resource Plan: 0.75d|Project Manager
-            (Deliverable) Create Project Schedule - Stage 1: 1.5d|Project Manager
-            (Deliverable) Setup RACI of Deliverables: 0.375d|Project Manager
-        Empired:
-            Create Project Log and setup Project in OpenAir: 1.125d|Project Manager
-    Project Mobilisation:
-        Organise Project Mobilisation / Kickoff Meeting: 0.375d|Project Manager
-        Conduct Project Mobilisation / Kickoff Meeting: 2.25d|Network Support (Lead),Tech Architect,Project Manager
-Project Scoping - Stage 2:
-    Gather and document Business Requirements: 1.5d|Western Power
-    Prepare the Project High Level Cost Estimate: 1.5d|Western Power
-    Update the PMP or Brief: 1.5d|Project Manager
-    Complete End of Stage 2 Gate (if nominated): 0.75d|Project Manager
-Project Planning and Design - Stage 3:
-    Stage Initiation:
-        Review Project Schedule: 0.375d|Project Manager
-        Review RAID Log: 0.375d|Project Manager
-        Mobilise Project Team: 0.75d|Project Manager
-        Phase Project Team/Sponsor Kick Off Meeting: 0.375d|Project Manager,Network Support (Lead),Tech Architect,Western Power
-    Business Case:
-        Prepare Estimates (Delivery Approach / Risk Assessment / Options Analysis/ Input into Benefits and Success Criteria): 1.5d|Western Power
-        Conduct Internal Review and Update Business Case: 1.5d|Western Power
-        Conduct Formal Review and Sign off on the Business Case: 0.75d|Project Manager,Western Power
-        Business Case Completed: 0.0d|
-    Project Management Plan or Brief:
-        Update Project Management Plan or Brief: 1.5d|Project Manager
-        Conduct Internal Review and Update Project Management Plan or Brief: 0.75d|Project Manager
-        Conduct Formal Review and Sign off on the Project Management Plan or Brief: 0.75d|Project Manager
-        Project Management Plan or Brief completed: 0.375d|
-    P2S Requirements: 1.125d|Project Manager
-    Design:
-        Discover existing WP network - T1 - 4:
-            Consultation with 3rd party , Zetta, ASG etc: 3.0d|Network Support (Lead)
-            Conduct Design Workshop: 3.0d|Network Support (Lead),Project Manager,Tech Architect,Western Power
-            (Deliverable) Technical Design Specification: 3.0d|Network Support (Lead)
-            (Deliverable) Prepare Acceptance Test Plan: 2.25d|Network Support (Lead)
-            (Deliverable) Prepare Implementation Plan: 3.0d|Network Support (Lead)
-            Quality Review of Technical Design Specification: 0.75d|Tech Architect
-            Quality Review of Acceptance Test Plan: 0.375d|Tech Architect
-            Quality Review of Implementation Plan: 0.375d|Tech Architect
-            Conduct Formal Review and Sign off on Technical Design Specification: 1.5d|Western Power
-            Conduct Formal Review and Sign off on Acceptance Test Plan: 1.5d|Western Power
-            Conduct Formal Review and Sign off on Implementation Plan: 1.5d|Western Power
-            Prepare configuration for SIEM logging: 0.75d|Network Support (Lead)
-    Prepare Pre-Execution "Project Walkthrough":
-        Prepare for Pre-Execution Walkthrough: 0.375d|Project Manager
-        Attend Pre-Execution walkthrough: 0.375d|Project Manager,Network Support (Lead),Tech Architect,Western Power
-        Pre-Execution walkthrough completed: 0.0d|
-    Populate Project Schedule for Stage 4 and 5: 0.75d|Project Manager
-    Attend Stage 3 Gate with PMO: 0.375d|Project Manager
-Project Execution - Stage 4: 0.0d|
-Implement Stage:
-    Tier 1 Deployment Prep:
-        T1 - HO (87 switches):
-            Configuration prep: 7.125d|Network Support (Lead)
-            Change Control/Preparation work: 1.5d|Network Support (Lead)
-            Firmware Upgrade Window 1 (Levels 3, 6 and 8):
-                Perform firmware upgrade: 1.0d|BaU
-                Testing: 0.25d|BaU
-            Dot1X Upgrade Window 1 (Level 3):
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.125d|NSL3 OT
-            Dot1X Upgrade Window 2 (Level 6):
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.0625d|NSL3 OT
-            Dot1X Upgrade Window 3 (Level 8):
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.0625d|NSL3 OT
-            Firmware Upgrade Window 2 (Levels 9, 10 and 11):
-                Perform firmware upgrade: 1.0d|BaU
-                Testing: 0.25d|BaU
-            Dot1X Upgrade Window 4 (Level 9):
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.0625d|NSL3 OT
-            Dot1X Upgrade Window 5 (Level 10):
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.0625d|NSL3 OT
-            Dot1X Upgrade Window 6 (Level 11):
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.0625d|NSL3 OT
-            Call Centre Floor Change Window 1 (Level 4):
-                Configure and install temporary switch: 0.25d|BaU
-                Perform firmware upgrade: 0.125d|BaU
-                Testing: 0.0625d|BaU
-                802.1x Deployment: 0.1875d|NSL3 OT
-                Perform Acceptance Testing and issue resolution: 0.0625d|NSL3 OT
-        Post implementation Review and Support: 4.5d|Network Support (Lead)
-        T1 - EPCC (20 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Change Control/Preparation work: 0.9458333333333333d|Network Support (Lead)
-            Discovery exercise: 4.5d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.5708333333333333d|Network Support (Lead)
-            802.1x Deployment: 1.5d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.375d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Travel & Site Visit: 0.375d|Network Support (Lead)
-        T1 - Forrestfield (16 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.75d|Network Support (Lead)
-            802.1x Deployment: 0.75d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.375d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Travel & Site Visit: 0.375d|Network Support (Lead)
-        T1 - Jandakot Hope (18 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.375d|Network Support (Lead)
-            802.1x Deployment: 0.75d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Travel & Site Visit: 0.375d|Network Support (Lead)
-        T1 - Jandakot Princep (21 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.5708333333333333d|Network Support (Lead)
-            Configuration prep: 0.5708333333333333d|Network Support (Lead)
-            802.1x Deployment: 3.0d|NSL3 OT(31%)
-            Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
-            Post implementation support: 0.75d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-            Travel & Site Visit: 0.375d|Network Support (Lead)
-        T1 - Kewdale (20 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.5708333333333333d|Network Support (Lead)
-            Configuration prep: 0.5708333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.9458333333333333d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-            Travel & Site Visit: 0.375d|Network Support (Lead)
-        T1 - Mt.Claremont (10 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.75d|Network Support (Lead)
-            Configuration prep: 0.375d|Network Support (Lead)
-            802.1x Deployment: 0.75d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-            Travel & Site Visit: 0.375d|Network Support (Lead)
-        T1 - Picton (14 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.75d|Network Support (Lead)
-            Configuration prep: 0.5708333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.75d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T1 - Stirling (13 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.375d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.75d|Network Support (Lead)
-            Configuration prep: 0.5708333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.75d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.19583333333333333d|NSL3 OT
-            Post implementation support: 1.5d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-    Deployment Prep Run No.1:
-        T2 - Mandurah (5 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Busselton (2 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Busselton Vasse:
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Mriver (2 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Bridgetown (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T2 - Albany (6 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.75d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-    Deployment Prep Run #2:
-        T2 - Northam (5 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Koorda (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Merredin (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Southern Cross (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Kalg (2 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-    Deployment Prep Run #3:
-        T4 - Moora (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Three-Springs (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T2 - Geraldton (4 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Jurien (2 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-    Deployment Prep Run #4:
-        T4 - Waroona (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Collie (2 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Narrogin (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Kondinin (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Katanning (1 switch):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-        T4 - Jerramungup (2 switches):
-            Perform Firmware Upgrade: 1.5d|BaU
-            Testing: 0.5d|BaU
-            Discovery exercise: 0.19583333333333333d|Network Support (Lead)
-            Preq task prior to 802.1x deployment (optional): 0.375d|Network Support (Lead)
-            Configuration prep: 0.19583333333333333d|Network Support (Lead)
-            802.1x Deployment: 0.375d|NSL3 OT
-            Perform Acceptance Testing and issue resolution: 0.08958333333333333d|NSL3 OT
-            Post implementation support: 0.19583333333333333d|Network Support (Lead)
-            Change Control/Preparation work: 0.375d|Network Support (Lead)
-    Work with IBM to create security use cases: 7.5d|Network Support (Lead)
-    (Deliverable) Finalise As Built Documentation: 3.0d|Network Support (Lead)
-    Quality Review of As Built Documentation: 0.75d|Tech Architect
-    Project to Support:
-        Prepare P2S Handover:
-            (Deliverable) RTP Checklist: 0.375d|Project Manager
-            (Deliverable) P2S Checklist: 0.375d|Project Manager
-            RTP Handover document: 0.375d|Project Manager
-            BAU process orientation/process changes/Service Diagram: 1.125d|Network Support (Lead)
-            BAU Review: 0.75d|BaU
-            RTP Update from review: 0.75d|Network Support (Lead)
-            Move Add Change Procedures: 0.375d|Network Support (Lead)
-            Prepare Operational Handover Training: 0.375d|Network Support (Lead)
-            Approved Release To Production (RTP): 0.0d|
-Project Control and Monitoring:
-    Monitoring and Control:
-        Ongoing Project Management (20% of Team Effort excluding PM): 28.125d|Project Manager
-    Western Power (per week):
-        Financial tracking and Management: 3.75d|Project Manager
-        PSR's: 0.9458333333333333d|Project Manager
-        Accruals: 0.46458333333333335d|Project Manager
-        Project Log tracking and Management: 3.75d|Project Manager
-        Resource Tracking and Management: 0.9458333333333333d|Project Manager
-        Communication Management: 0.9458333333333333d|Project Manager
-        Schedule Tracking and Management: 3.75d|Project Manager
-        Meetings:
-            Team Meetings: 5.625d|Project Manager,Network Support (Lead),Tech Architect
-    Empired (per week):
-        Maintain Project Log and Project in OpenAir: 1.875d|Project Manager
-        Finance and Resource Mgmt.: 0.9458333333333333d|Project Manager
-        Meetings:
-            Account Meetings (monthly): 0.9458333333333333d|Project Manager
-            Lifecycle Services PSR Meetings (monthly): 0.9458333333333333d|Project Manager
-Project Closeout - Stage 5:
-    Western Power:
-        (Deliverable) Create/Complete Project Closeout Checklist: 1.5d|Project Manager
-        (Deliverable) Send out and Complete the Project Satisfaction Survey: 0.5708333333333333d|Project Manager,Western Power
-        (Deliverable) Create / Review/ Sign off Project Closure Report / Memo: 1.5d|Project Manager
-        (Deliverable) PMO Lessons Learned Register: 0.75d|Project Manager
-        Sponsor Agrees to Close Project: 0.0d|
-    Empired:
-        PIR Survey and Prework: 0.19583333333333333d|Project Manager
-        PIR Workshop: 0.19583333333333333d|Network Support (Lead),Project Manager,Tech Architect
-        PIR Completion: 0.75d|Project Manager
-        Complete End Project Checklist: 0.19583333333333333d|Project Manager
+Project Initiation:
+    Confirm project classification with Program Manager: 0.12916666666666668d|Project Manager
+    Project initiation documentation (POP/OSAF): 2.0d|Programme Manager
+    Procurement Management: 2.0d|Programme Manager
+Project Scoping:
+    Selection:
+        Create target list for replacement based on CI/CMDB data: 20.0d|Network Support (Lead)[50%],Project Manager[50%]
+        Resource Delay: 20.0d|
+        Run show commands to document current state (capacity, licensing requirements) andfinalise BOM: 5.0d|Network Support (Lead)[50%],Project Manager[50%]
+        Liaise with Cisco AM for recommended hardware replacement: 5.0d|Project Manager[50%]
+    Governance:
+        Create Project Management Plan / Brief [Deliverable]: 4.0d|Project Manager[50%]
+        Setup Financial Tracker: 2.0d|Project Manager[50%]
+        Setup Project Log: 2.0d|Project Manager[50%]
+        Create Resource Plan (Deliverable): 1.0d|Project Manager[50%]
+        Create Project Schedule - Stage 1 (Deliverable): 4.0d|Project Manager[50%]
+        Setup RACI of Deliverables (Deliverables): 2.0d|Project Manager[50%]
+        Create Stakeholder Management Plan (Deliverable): 1.0d|Project Manager[50%]
+        Create Project Log and setup Project in OpenAir: 2.0d|Project Manager[50%]
+        Organise / Prepare for / Attend Project Mobilisation / Kickoff Meeting: 2.0d|Project Manager[50%]
+Planning and Design:
+    Planning:
+        Identify rack locations with insufficient depth for replacement hardware: 2.0d|Network Support (Lead)[60%]
+        Review and Plan Wireless deployment: 1.0d|Network Support (Lead)[60%]
+        Write Recommendations Paper/Options Paper: 2.0d|Network Support (Lead)[60%]
+        Review Recommendations Paper: 0.0d|Network Support (Lead)[60%],Project Manager[50%]
+        Issue Recommendations Paper: 0.0d|Project Manager[50%]
+        (Milestone) Planning Complete: 0.0d|
+    Design Stage:
+        Conduct Design Workshop: 0.25d|Network Support (Lead)
+        Research technical design options: 1.0d|Network Support (Lead)
+        (Deliverable) Generate Design: 7.5d|Network Support (Lead)
+        (Deliverable) Generate Test Plan: 1.5d|Network Support (Lead)
+        Creation of BOM for addition devices, components, sundries: 2.5d|Network Support (Lead)
+        Undertake internal Peer Review of Design and Test Plan inc. Operational Team: 1.0d|Network Support (Lead)
+        Review Design: 0.5d|Network Support (Lead),Technical Architect
+Execution:
+    Procurement: 30.0d|
+    (Deliverable) Write Implementation Plan: 10.0d|Network Support (Lead)
+    Undertake internal Peer Review of Implementation Plan: 5.0d|Network Support (Lead)
+    Configuration: 10.0d|Network Support (Lead)
+    Testing: 5.0d|Network Support (Lead)
+    Deployment: 40.0d|Network Support (Lead)
+    (Deliverable) Update As Built Documentation: 0.0d|
+Handover (Operational Handover Stage - Out of Scope):
+    P2S Planning: 10.0d|Project Manager
+    Handover to Operations:
+        Handover to Operations (including training): 10.0d|Project Manager[25%],Network Support (Lead)
+        Approved Release To Production (RTP): 0.0d|
