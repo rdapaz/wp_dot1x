@@ -1,0 +1,1442 @@
+{
+    "PDC-DMZ-SW3": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550R0SL",
+        "version": "15.0(2)SE7"
+    },
+    "PDC-DMZ-SW4": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550R0QY",
+        "version": "15.0(2)SE7"
+    },
+    "PDC-DMZ-SW2": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550R0UN",
+        "version": "15.0(2)SE7"
+    },
+    "SDC-DMZ-SW1": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1603K107",
+        "version": "15.0(2)SE7"
+    },
+    "SDC-DMZ-SW3": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550K0MH",
+        "version": "15.0(2)SE7"
+    },
+    "PDC-DMZ-SW6": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550P0N0",
+        "version": "15.0(2)SE7"
+    },
+    "SDC-DMZ-SW2": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550P0NC",
+        "version": "15.0(2)SE7"
+    },
+    "PDC-DMZ-SW1": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1549V1N8",
+        "version": "15.0(2)SE7"
+    },
+    "PDC-DMZ-SW5": {
+        "device_model": "WS-C3750X-48T-L",
+        "device_serial": "FDO1550R0TM",
+        "version": "15.0(2)SE7"
+    },
+    "KEWD-09-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y195",
+        "version": "15.0(2)SE5"
+    },
+    "KEWD-06-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y19K",
+        "version": "15.0(2)SE5"
+    },
+    "KEWD-03-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y19F",
+        "version": "15.0(2)SE5"
+    },
+    "ALBY-03-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y0AX",
+        "version": "15.0(2)SE5"
+    },
+    "STRLG-06-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y19S",
+        "version": "15.0(2)SE5"
+    },
+    "KEWD-10-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y1A0",
+        "version": "15.0(2)SE5"
+    },
+    "FORR-03-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1818Y4R2",
+        "version": "15.0(2)SE5"
+    },
+    "STRLG-05-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y198",
+        "version": "15.0(2)SE5"
+    },
+    "FORR-04-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1846Y17P",
+        "version": "15.0(2)SE5"
+    },
+    "ALBY-02-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1833Y19A",
+        "version": "15.0(2)SE5"
+    },
+    "EPCC-01-SW2": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1621Z1NV",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-16-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X2R9",
+        "version": "15.0(2)SE4"
+    },
+    "MTCL-03-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1511V0U5",
+        "version": "15.0(2)SE4"
+    },
+    "NGN-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1552X338",
+        "version": "15.0(2)SE4"
+    },
+    "HO5E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1520P0UH",
+        "version": "15.0(2)SE4"
+    },
+    "MTCL-02-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1511V0SC",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-10-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X2RH",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-03-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1651Y0LA",
+        "version": "15.0(2)SE4"
+    },
+    "JKPRD-01-SW2": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1741Z0BF",
+        "version": "15.0(2)SE4"
+    },
+    "ALBY-01-SW1": {
+        "device_model": "WS-C3750X-24P-E",
+        "device_serial": "FDO1739P05C",
+        "version": "15.0(2)SE4"
+    },
+    "HO3W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546R0SN",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-13-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1451X0U1",
+        "version": "15.0(2)SE4"
+    },
+    "GERN-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1736Y0V8",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-07-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1651Y0CE",
+        "version": "15.0(2)SE4"
+    },
+    "WRNA-01-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1620X0J0",
+        "version": "15.0(2)SE4"
+    },
+    "HO9W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1519R1V6",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-02-SW2": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1627X1GT",
+        "version": "15.0(2)SE4"
+    },
+    "BUSN-01-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1615Y27F",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-02-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1627Y164",
+        "version": "15.0(2)SE4"
+    },
+    "CSCS-04-SW1": {
+        "device_model": "WS-C3750V2-24PS-E",
+        "device_serial": "FDO1718Y0X9",
+        "version": "15.0(2)SE4"
+    },
+    "HO2W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546R0SZ",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-03-SW2": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1621X1Y6",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-SW4": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1627X1H0",
+        "version": "15.0(2)SE4"
+    },
+    "MAND-01-SW2": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1450K1V0",
+        "version": "15.0(2)SE4"
+    },
+    "HO9E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1520R11G",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-02-SW3": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1627X1GY",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-VG224-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1617X2MU",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-14-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1451X0TK",
+        "version": "15.0(2)SE4"
+    },
+    "HO4W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546P0RA",
+        "version": "15.0(2)SE4"
+    },
+    "JERRA-01-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1725Y0ME",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-01-SW4": {
+        "device_model": "WS-C3750V2-48PS-E",
+        "device_serial": "FDO1644X0PH",
+        "version": "15.0(2)SE4"
+    },
+    "HO10E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546V0QS",
+        "version": "15.0(2)SE4"
+    },
+    "HO7E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546R0TL",
+        "version": "15.0(2)SE4"
+    },
+    "BTLYA-01-SW1": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1417R25R",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-03-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1620X1DR",
+        "version": "15.0(2)SE4"
+    },
+    "JUREN-01-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1732Y0AC",
+        "version": "15.0(2)SE4"
+    },
+    "KALG-01-SW1": {
+        "device_model": "WS-C3750G-24TS-E1U",
+        "device_serial": "FOC1407Y1UR",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-01-SW1": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1621Z1KT",
+        "version": "15.0(2)SE4"
+    },
+    "NTHM-03-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1615Y25G",
+        "version": "15.0(2)SE4"
+    },
+    "NTHM-01-SW1": {
+        "device_model": "WS-C3750G-24TS-E1U",
+        "device_serial": "FOC1407Y1SB",
+        "version": "15.0(2)SE4"
+    },
+    "HO8E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546V0S5",
+        "version": "15.0(2)SE4"
+    },
+    "JKWCE-01-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1549W1JH",
+        "version": "15.0(2)SE4"
+    },
+    "STRLG-01-SW1": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1741Z00D",
+        "version": "15.0(2)SE4"
+    },
+    "GERN-01-SW2": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1704Y04C",
+        "version": "15.0(2)SE4"
+    },
+    "HOCR-F21-SW1": {
+        "device_model": "WS-C3750G-48TS-E",
+        "device_serial": "FOC1326Z2Z5",
+        "version": "15.0(2)SE4"
+    },
+    "HO3E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1510P0WK",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-05-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X267",
+        "version": "15.0(2)SE4"
+    },
+    "STRLG-01-SW2": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1741Z04P",
+        "version": "15.0(2)SE4"
+    },
+    "HO6E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1519P22X",
+        "version": "15.0(2)SE4"
+    },
+    "MTCL-01-SW3": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1511V0U7",
+        "version": "15.0(2)SE4"
+    },
+    "BUSN-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1717Y3B9",
+        "version": "15.0(2)SE4"
+    },
+    "HO10W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546P0RF",
+        "version": "15.0(2)SE4"
+    },
+    "HO11E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1520R10G",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-01-SW10": {
+        "device_model": "WS-C3750X-24P-E",
+        "device_serial": "FDO1724Z06A",
+        "version": "15.0(2)SE4"
+    },
+    "JERRA-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1633X03Y",
+        "version": "15.0(2)SE4"
+    },
+    "HO11W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1524K0YK",
+        "version": "15.0(2)SE4"
+    },
+    "HO4E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1521R0P2",
+        "version": "15.0(2)SE4"
+    },
+    "FORR-01-SW1": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1741Z09J",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-02-SW1": {
+        "device_model": "WS-C3750V2-48PS-E",
+        "device_serial": "FDO1644X0RL",
+        "version": "15.0(2)SE4"
+    },
+    "MAND-03-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X0U2",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-22-SW1": {
+        "device_model": "WS-C3750V2-48PS-E",
+        "device_serial": "FDO1449X1LX",
+        "version": "15.0(2)SE4"
+    },
+    "HO8W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546Z0ML",
+        "version": "15.0(2)SE4"
+    },
+    "HOGE-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1519P1Z1",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-09-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1531Y0E1",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-06-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1451X0T9",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-12-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X2RC",
+        "version": "15.0(2)SE4"
+    },
+    "CSCS-03-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1718Y3PF",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-01-SW3": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X2RM",
+        "version": "15.0(2)SE4"
+    },
+    "HOGW-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1519P1Z2",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-08-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1532Y03E",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-RIB-SW2": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1620Y103",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-04-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1509X0RY",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-04-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1651Y0N0",
+        "version": "15.0(2)SE4"
+    },
+    "BSNFG-01-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1620X0J8",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-05-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1651Y0JL",
+        "version": "15.0(2)SE4"
+    },
+    "HO2E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546V0RW",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-01-SW3": {
+        "device_model": "WS-C3750V2-48PS-E",
+        "device_serial": "FDO1644X0S7",
+        "version": "15.0(2)SE4"
+    },
+    "FORR-10-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1614Y1XX",
+        "version": "15.0(2)SE4"
+    },
+    "CSCS-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1736Y0TK",
+        "version": "15.0(2)SE4"
+    },
+    "PICT-08-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1651Y0JB",
+        "version": "15.0(2)SE4"
+    },
+    "GERN-01-SW1": {
+        "device_model": "WS-C3750X-24P-E",
+        "device_serial": "FDO1735Z27A",
+        "version": "15.0(2)SE4"
+    },
+    "HO5W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1521K02S",
+        "version": "15.0(2)SE4"
+    },
+    "HO7W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1510P0W6",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-SW7": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1620X1FS",
+        "version": "15.0(2)SE4"
+    },
+    "AIRPT-01-SW1": {
+        "device_model": "WS-C3750X-24P-E",
+        "device_serial": "FDO1735Z279",
+        "version": "15.0(2)SE4"
+    },
+    "HO1W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1521P0PE",
+        "version": "15.0(2)SE4"
+    },
+    "ALBY-05-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1620X0JB",
+        "version": "15.0(2)SE4"
+    },
+    "JKHPD-07-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X2RK",
+        "version": "15.0(2)SE4"
+    },
+    "HO6W-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1519P1TV",
+        "version": "15.0(2)SE4"
+    },
+    "COLLI-01-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1718Y102",
+        "version": "15.0(2)SE4"
+    },
+    "BTLYA-01-SW2": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1418P08E",
+        "version": "15.0(2)SE4"
+    },
+    "EPCC-01-SW10": {
+        "device_model": "WS-C3750X-24P-E",
+        "device_serial": "FDO1747P0VQ",
+        "version": "15.0(2)SE4"
+    },
+    "BUNTS-01-SW1": {
+        "device_model": "WS-C3560CG-8PC-S",
+        "device_serial": "FOC1549W1JY",
+        "version": "15.0(2)SE4"
+    },
+    "MAND-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1450X0ZR",
+        "version": "15.0(2)SE4"
+    },
+    "JKPRD-01-SW1": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1741Z0AA",
+        "version": "15.0(2)SE4"
+    },
+    "FORR-01-SW2": {
+        "device_model": "WS-C3750X-12S-E",
+        "device_serial": "FDO1740P0PU",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-RIB-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1620X1DJ",
+        "version": "15.0(2)SE4"
+    },
+    "KRDA-01-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1736Y0TH",
+        "version": "15.0(2)SE4"
+    },
+    "COLLI-02-SW1": {
+        "device_model": "WS-C3750V2-24PS-S",
+        "device_serial": "FDO1629X1WV",
+        "version": "15.0(2)SE4"
+    },
+    "PDC-SW8": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1620X1DL",
+        "version": "15.0(2)SE4"
+    },
+    "STRLG-07-SW1": {
+        "device_model": "WS-C3750V2-48PS-S",
+        "device_serial": "FDO1620X1D6",
+        "version": "15.0(2)SE4"
+    },
+    "MAND-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1450K1UZ",
+        "version": "15.0(2)SE4"
+    },
+    "HO1E-01-SW1": {
+        "device_model": "WS-C3750X-48P-S",
+        "device_serial": "FDO1546Z0LS",
+        "version": "15.0(2)SE4"
+    },
+    "BTLYA-03-SW1": {
+        "device_model": "WS-C3750-48PS-S",
+        "device_serial": "FDO1427X1CD",
+        "version": "12.2(58)SE2"
+    },
+    "JKPRD-01-SW3": {
+        "device_model": "WS-C3750-48PS-E",
+        "device_serial": "CAT0934Z1HH",
+        "version": "12.2(58)SE2"
+    },
+    "BTLYA-01-SW3": {
+        "device_model": "WS-C3750-48PS-S",
+        "device_serial": "FDO1424X2BU",
+        "version": "12.2(58)SE2"
+    },
+    "BTLYA-01-SW4": {
+        "device_model": "WS-C3750-48PS-S",
+        "device_serial": "FDO1424X288",
+        "version": "12.2(58)SE2"
+    },
+    "JKPRD-07-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0M1",
+        "version": "12.2(58)SE2"
+    },
+    "FORR-05-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0M4",
+        "version": "12.2(58)SE2"
+    },
+    "FORR-07-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0NY",
+        "version": "12.2(58)SE2"
+    },
+    "KEWD-07-SW4": {
+        "device_model": "WS-C3750V2-48PS-E",
+        "device_serial": "FDO1506X27T",
+        "version": "12.2(58)SE2"
+    },
+    "MTCL-04-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "CAT1051NJR7",
+        "version": "12.2(58)SE2"
+    },
+    "SDC-BRSOC": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1340X0MF",
+        "version": "12.2(58)SE2"
+    },
+    "KEWTS-01-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1317Y0HV",
+        "version": "12.2(58)SE2"
+    },
+    "JKPRD-09-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0MM",
+        "version": "12.2(58)SE2"
+    },
+    "PICT-01-SW2": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1320R25H",
+        "version": "12.2(58)SE2"
+    },
+    "FORR-06-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0MK",
+        "version": "12.2(58)SE2"
+    },
+    "JKPRD-06-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0M0",
+        "version": "12.2(58)SE2"
+    },
+    "JKPRD-10-SW1": {
+        "device_model": "WS-C3750-24PS-E",
+        "device_serial": "FDO1244Z0MU",
+        "version": "12.2(58)SE2"
+    },
+    "JKPRD-04-SW1": {
+        "device_model": "WS-C3750-48PS-E",
+        "device_serial": "FDO1320X0H2",
+        "version": "12.2(58)SE2"
+    },
+    "JKHPD-01-SW2": {
+        "device_model": "WS-C3750X-24T-S",
+        "device_serial": "FDO1450K1X4",
+        "version": "12.2(55)SE5"
+    },
+    "MTCL-01-SW2": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1320R278",
+        "version": "12.2(55)SE5"
+    },
+    "MTCL-01-SW1": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1320R277",
+        "version": "12.2(55)SE5"
+    },
+    "BTLYA-02-SW1": {
+        "device_model": "WS-C3750V2-48PS-E",
+        "device_serial": "FDO1625X0MP",
+        "version": "12.2(55)SE5"
+    },
+    "KEWD-07-SW1": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1320R26L",
+        "version": "12.2(55)SE5"
+    },
+    "PICT-01-SW1": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1320R27M",
+        "version": "12.2(55)SE5"
+    },
+    "KEWD-07-SW2": {
+        "device_model": "WS-C3750E-24TD-E",
+        "device_serial": "FDO1320R26R",
+        "version": "12.2(55)SE5"
+    },
+    "JKHPD-01-SW1": {
+        "device_model": "WS-C3750X-24T-S",
+        "device_serial": "FDO1450K1X5",
+        "version": "12.2(55)SE5"
+    },
+    "MARGR-01-SW1": {
+        "device_model": "WS-C3750G-24T-E",
+        "device_serial": "FDO1252Z0RS",
+        "version": "12.2(55)SE5"
+    },
+    "HO1M-01-SW1": {
+        "device_model": "WS-C3750-48PS-S",
+        "device_serial": "CAT0822X0CF",
+        "version": "12.2(55)SE5"
+    },
+    "DR-ASGL7-SW1": {
+        "device_model": "WS-C2960-48TT-L",
+        "device_serial": "FOC1004X0S5",
+        "version": "12.2(25)FX"
+    },
+    "STRLG-02-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1NT",
+        "version": "03.03.03SE"
+    },
+    "KOND-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0V1",
+        "version": "03.03.03SE"
+    },
+    "KEWD-05-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1R2",
+        "version": "03.03.03SE"
+    },
+    "STRLG-03-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1N6",
+        "version": "03.03.03SE"
+    },
+    "MERD-01-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1NP",
+        "version": "03.03.03SE"
+    },
+    "KEWD-11-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0YB",
+        "version": "03.03.03SE"
+    },
+    "FORR-01-SW4": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1N5",
+        "version": "03.03.03SE"
+    },
+    "PDC-DMZ-SW10": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0V9",
+        "version": "03.03.03SE"
+    },
+    "THRSP-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0YP",
+        "version": "03.03.03SE"
+    },
+    "FORR-02-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1NL",
+        "version": "03.03.03SE"
+    },
+    "STHX-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1820Q1D1",
+        "version": "03.03.03SE"
+    },
+    "NDC-04-SW01": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1MJ",
+        "version": "03.03.03SE"
+    },
+    "KEWD-07-SW3": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1NA",
+        "version": "03.03.03SE"
+    },
+    "ALBY-01-SW2": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0W7",
+        "version": "03.03.03SE"
+    },
+    "NGN-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0V8",
+        "version": "03.03.03SE"
+    },
+    "BRIDG-01-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1K5",
+        "version": "03.03.03SE"
+    },
+    "NTHM-01-SW2": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1NC",
+        "version": "03.03.03SE"
+    },
+    "KALG-01-SW2": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1KH",
+        "version": "03.03.03SE"
+    },
+    "STRLG-01-SW3": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1R0",
+        "version": "03.03.03SE"
+    },
+    "KEWD-02-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1MH",
+        "version": "03.03.03SE"
+    },
+    "FORR-09-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1820Q1D8",
+        "version": "03.03.03SE"
+    },
+    "KEWD-04-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0UF",
+        "version": "03.03.03SE"
+    },
+    "STRLG-01-SW4": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1HT",
+        "version": "03.03.03SE"
+    },
+    "KEWD-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0U2",
+        "version": "03.03.03SE"
+    },
+    "JKPRD-03-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1R6",
+        "version": "03.03.03SE"
+    },
+    "MARGR-01-SW2": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1RF",
+        "version": "03.03.03SE"
+    },
+    "KTN-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0UW",
+        "version": "03.03.03SE"
+    },
+    "PDC-ASGL7-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1RE",
+        "version": "03.03.03SE"
+    },
+    "FORR-08-SW1": {
+        "device_model": "WS-C3650-48PS",
+        "device_serial": "FDO1820Q1NE",
+        "version": "03.03.03SE"
+    },
+    "AIRPT-01-SW2": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0VN",
+        "version": "03.03.03SE"
+    },
+    "ALBY-04-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1820Q1DS",
+        "version": "03.03.03SE"
+    },
+    "NTHM-02-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1820Q1DL",
+        "version": "03.03.03SE"
+    },
+    "MOORA-01-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0U7",
+        "version": "03.03.03SE"
+    },
+    "CSCS-06-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0UE",
+        "version": "03.03.03SE"
+    },
+    "PDC-DMZ-RSW3": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0UB",
+        "version": "03.03.03SE"
+    },
+    "STRLG-04-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0V6",
+        "version": "03.03.03SE"
+    },
+    "JKPRD-05-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0UY",
+        "version": "03.03.03SE"
+    },
+    "JKPRD-02-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1821Q0XQ",
+        "version": "03.03.03SE"
+    },
+    "JUREN-02-SW1": {
+        "device_model": "WS-C3650-24PS",
+        "device_serial": "FDO1816Q0QJ",
+        "version": "03.03.02SE"
+    },
+    "COLLI-01-R1": {
+        "device_model": "CISCO2911/K9 (C2900 series)",
+        "device_serial": "FGL172310Y4",
+        "version": "15.3(3)M5"
+    },
+    "ALBY-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KC",
+        "version": "15.3(3)M5"
+    },
+    "BSNFG-01-R1": {
+        "device_model": "CISCO2901/K9 (C2900 series)",
+        "device_serial": "FTX1725Y0FX",
+        "version": "15.3(3)M5"
+    },
+    "JUREN-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KG",
+        "version": "15.3(3)M5"
+    },
+    "GERN-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KE",
+        "version": "15.3(3)M5"
+    },
+    "KRDA-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KF",
+        "version": "15.3(3)M5"
+    },
+    "MERD-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL180610UC",
+        "version": "15.3(3)M"
+    },
+    "SDC-DMZ-R3": {
+        "device_model": "CISCO2911/K9 (C2900 series)",
+        "device_serial": "FGL171112RR,FOC17131P87,FOC17131NGA",
+        "version": "15.3(2)T3"
+    },
+    "KEWTS-GWIP": {
+        "device_model": "881 (C880 series)",
+        "device_serial": "FGL155224WW",
+        "version": "15.3(2)T3"
+    },
+    "STRLG-01-R1": {
+        "device_model": "CISCO3925-CHASSIS (C3900 series)",
+        "device_serial": "FGL174210R6",
+        "version": "15.3(2)T3"
+    },
+    "MTCL-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL151313GD",
+        "version": "15.3(2)T3"
+    },
+    "JKHPD-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL15031039",
+        "version": "15.3(2)T3"
+    },
+    "AIRPT-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KB",
+        "version": "15.3(2)T3"
+    },
+    "AIRPT-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KR",
+        "version": "15.3(2)T3"
+    },
+    "JKPRD-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174411AF",
+        "version": "15.3(2)T3"
+    },
+    "PDC-01-RDM1": {
+        "device_model": "CISCO3925-CHASSIS (C3900 series)",
+        "device_serial": "FGL173210AM,FOC17322ZHN",
+        "version": "15.3(2)T3"
+    },
+    "JKWCE-01-R1": {
+        "device_model": "881 (C880 series)",
+        "device_serial": "FGL155224XE",
+        "version": "15.3(2)T3"
+    },
+    "JKPRD-01-R1": {
+        "device_model": "CISCO3925-CHASSIS (C3900 series)",
+        "device_serial": "FGL174210R8",
+        "version": "15.3(2)T3"
+    },
+    "FORR-01-R1": {
+        "device_model": "CISCO3925-CHASSIS (C3900 series)",
+        "device_serial": "FGL174210R7",
+        "version": "15.3(2)T3"
+    },
+    "SDC-01-R1": {
+        "device_model": "CISCO3925-CHASSIS (C3900e series)",
+        "device_serial": "FGL151111EL",
+        "version": "15.3(2)T3"
+    },
+    "JERRA-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL162110YU",
+        "version": "15.3(2)T3"
+    },
+    "EPCC-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KD",
+        "version": "15.3(2)T3"
+    },
+    "STRLG-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210HW",
+        "version": "15.3(2)T3"
+    },
+    "HOCR-GWIP": {
+        "device_model": "CISCO3925-CHASSIS (C3900e series)",
+        "device_serial": "FGL15111365",
+        "version": "15.3(2)T3"
+    },
+    "HOCR-NBU": {
+        "device_model": "CISCO3925-CHASSIS (C3900e series)",
+        "device_serial": "FGL15111368",
+        "version": "15.3(2)T3"
+    },
+    "SDC-DMZ-R2": {
+        "device_model": "CISCO3925-CHASSIS (C3900e series)",
+        "device_serial": "FGL162512MP,FOC16336049",
+        "version": "15.3(2)T3"
+    },
+    "CSCS-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210LZ",
+        "version": "15.3(2)T3"
+    },
+    "EPCC-DMZ-R1": {
+        "device_model": "CISCO2911/K9 (C2900 series)",
+        "device_serial": "FGL17331065,FOC200582NG",
+        "version": "15.3(2)T3"
+    },
+    "EPCC-01-R1": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL16481188",
+        "version": "15.3(2)T3"
+    },
+    "MAND-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL150210LT",
+        "version": "15.3(2)T3"
+    },
+    "PDC-DMZ-R1": {
+        "device_model": "CISCO3925-CHASSIS (C3900e series)",
+        "device_serial": "FGL162512MN,FOC16261FDQ",
+        "version": "15.3(2)T3"
+    },
+    "FORR-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL174210KH",
+        "version": "15.3(2)T3"
+    },
+    "PDC-DMZ-R3": {
+        "device_model": "CISCO2911/K9 (C2900 series)",
+        "device_serial": "FGL15261033,FOC15220FGF,FOC15474U3E",
+        "version": "15.3(2)T3"
+    },
+    "PICT-01-R2": {
+        "device_model": "CISCO2921/K9 (C2900 series)",
+        "device_serial": "FGL170910VL",
+        "version": "15.3(2)T3"
+    },
+    "BUNTS-01-R1": {
+        "device_model": "881 (C880 series)",
+        "device_serial": "FGL155224XB",
+        "version": "15.3(2)T3"
+    },
+    "RKHM-01-RSW1": {
+        "device_model": "887VA (C880 series)",
+        "device_serial": "FGL174223MQ",
+        "version": "15.2(4)M4"
+    },
+    "PDC-01-R4": {
+        "device_model": "CISCO2911/K9 (C2900 series)",
+        "device_serial": "FTX1432AKMN",
+        "version": "15.2(4)M2"
+    },
+    "HO-VG224-3": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4XA",
+        "version": "15.1(4)M7"
+    },
+    "JKHPD-01-R1": {
+        "device_model": "3845 (3800 series)",
+        "device_serial": "FHK1318F042",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1222F20L",
+        "version": "15.1(4)M7"
+    },
+    "STHX-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1KU",
+        "version": "15.1(4)M7"
+    },
+    "PICT-01-R1": {
+        "device_model": "3825 (3800 series)",
+        "device_serial": "FHK1318F1GU",
+        "version": "15.1(4)M7"
+    },
+    "JKPRD-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1250F0TX",
+        "version": "15.1(4)M7"
+    },
+    "MOORA-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FTX1027Y0HT",
+        "version": "15.1(4)M7"
+    },
+    "KTN-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1L0",
+        "version": "15.1(4)M7"
+    },
+    "KEWD-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1313F0G7",
+        "version": "15.1(4)M7"
+    },
+    "PICT-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1317F22B",
+        "version": "15.1(4)M7"
+    },
+    "AIRPT-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1317F22E",
+        "version": "15.1(4)M7"
+    },
+    "BTLYA-02-VG224": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1328F0TN",
+        "version": "15.1(4)M7"
+    },
+    "GERN-VG224": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1317F22D",
+        "version": "15.1(4)M7"
+    },
+    "KOND-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1KR",
+        "version": "15.1(4)M7"
+    },
+    "FORR-VG224-2": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1238F2U2",
+        "version": "15.1(4)M7"
+    },
+    "FORR-VG224-3": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1238F2U3",
+        "version": "15.1(4)M7"
+    },
+    "JKHPD-16-VGR1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1317F22A",
+        "version": "15.1(4)M7"
+    },
+    "BRIDG-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1KW",
+        "version": "15.1(4)M7"
+    },
+    "FORR-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1208F2R9",
+        "version": "15.1(4)M7"
+    },
+    "KEWD-01-R1": {
+        "device_model": "3845 (3800 series)",
+        "device_serial": "FHK1318F041",
+        "version": "15.1(4)M7"
+    },
+    "MAND-01-R1": {
+        "device_model": "2811 (2800 series)",
+        "device_serial": "FHK1317F1PQ",
+        "version": "15.1(4)M7"
+    },
+    "MAND-VG224-01": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0M4",
+        "version": "15.1(4)M7"
+    },
+    "MTCL-01-R1": {
+        "device_model": "3825 (3800 series)",
+        "device_serial": "FTX1037A3GZ",
+        "version": "15.1(4)M7"
+    },
+    "EPCC-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4XB",
+        "version": "15.1(4)M7"
+    },
+    "MTCL-01-VGR1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1313F0G9",
+        "version": "15.1(4)M7"
+    },
+    "EPCC-VG224-2": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4X4",
+        "version": "15.1(4)M7"
+    },
+    "KEWD-07-VGR1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0MB",
+        "version": "15.1(4)M7"
+    },
+    "BTLYA-01-R1": {
+        "device_model": "2821 (2800 series)",
+        "device_serial": "FHK1419F0S2",
+        "version": "15.1(4)M7"
+    },
+    "NGN-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1KS",
+        "version": "15.1(4)M7"
+    },
+    "PICT-VG224-2": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0MA",
+        "version": "15.1(4)M7"
+    },
+    "KALG-VG224": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0M2",
+        "version": "15.1(4)M7"
+    },
+    "MERD-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1KY",
+        "version": "15.1(4)M7"
+    },
+    "KEWD-VG224-2": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0MC",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-9": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4X5",
+        "version": "15.1(4)M7"
+    },
+    "ALBY-VG224": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0M8",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-8": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4XD",
+        "version": "15.1(4)M7"
+    },
+    "JKPRD-VG224-2": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1250F0TW",
+        "version": "15.1(4)M7"
+    },
+    "STRLG-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0M9",
+        "version": "15.1(4)M7"
+    },
+    "BUSN-01-R1": {
+        "device_model": "2801 (2801 series)",
+        "device_serial": "FHK1317F1KV",
+        "version": "15.1(4)M7"
+    },
+    "THRSP-01-R1": {
+        "device_model": "2811 (2800 series)",
+        "device_serial": "FHK1406F0UT",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-10": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4X9",
+        "version": "15.1(4)M7"
+    },
+    "JKHPD-13-VGR1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1313F0G8",
+        "version": "15.1(4)M7"
+    },
+    "BTLYA-01-R2": {
+        "device_model": "3825 (3800 series)",
+        "device_serial": "FHK1344F08T",
+        "version": "15.1(4)M7"
+    },
+    "NTHM-VG224": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0M7",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-5": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4XC",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-4": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4X2",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-2": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1313F0GC",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-6": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F0SX",
+        "version": "15.1(4)M7"
+    },
+    "HO-VG224-7": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1233F4X3",
+        "version": "15.1(4)M7"
+    },
+    "EPCC-VGATE-1": {
+        "device_model": "CISCO3925-CHASSIS (C3900 series)",
+        "device_serial": "FGL174210RA",
+        "version": "15.1(2)T5"
+    },
+    "WRNA-01-R1": {
+        "device_model": "1801 (C180X series)",
+        "device_serial": "FHK1205F3QP",
+        "version": "15.0(1)M10"
+    },
+    "HOBM-VG224-1": {
+        "device_model": "VG224 (vg224 series)",
+        "device_serial": "FHK1318F0M3",
+        "version": "12.4(24)T7"
+    },
+    "NTHM-01-R1": {
+        "device_model": "2851 (2800 series)",
+        "device_serial": "FHK1317F1E6",
+        "version": "12.4(24)T7"
+    },
+    "SDC-01-R3": {
+        "device_model": "2811 (2800 series)",
+        "device_serial": "FHK1317F2BR",
+        "version": "12.4(24)T7"
+    },
+    "HO-VGATE-1": {
+        "device_model": "2851 (2800 series)",
+        "device_serial": "FHK1222F1WG",
+        "version": "12.4(24)T7"
+    },
+    "MARGR-01-R1": {
+        "device_model": "2811 (2800 series)",
+        "device_serial": "FHK1317F1PR",
+        "version": "12.4(24)T7"
+    },
+    "HO-VGATE-2": {
+        "device_model": "2851 (2800 series)",
+        "device_serial": "FHK1235F3S0",
+        "version": "12.4(24)T7"
+    },
+    "KALG-01-R1": {
+        "device_model": "2851 (2800 series)",
+        "device_serial": "FHK1249F470",
+        "version": "12.4(24)T7"
+    },
+    "KEWD-01-R2": {
+        "device_model": "2821 (2800 series)",
+        "device_serial": "FTX0910A10N",
+        "version": "12.4(24)T7"
+    },
+    "HOCR-CSC-R1": {
+        "device_model": "2821 (2800 series)",
+        "device_serial": "FHK0947F1GZ",
+        "version": "12.4(22)T"
+    },
+    "PDC-DMZ-R4": {
+        "device_model": "ISR4321/K9 (ISR series)",
+        "device_serial": "FDO1925A0FA",
+        "version": "03.16.01a.S - 15.5(3)S1a"
+    },
+    "SDC-DMZ-R4": {
+        "device_model": "ISR4321/K9 (ISR series)",
+        "device_serial": "FDO1925A0F2",
+        "version": "03.16.01a.S - 15.5(3)S1a"
+    }
+}
